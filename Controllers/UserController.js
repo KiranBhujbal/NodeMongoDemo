@@ -78,8 +78,11 @@ exports.login = function(req,res)
         //  console.log(users);
           if(users[0].password ==userData.password)
            {
-        
-            res.render('pages/dashboard',{info : users[0]});
+            req.session.user = users[0];
+           
+           // res.render('pages/dashboard',{info : users[0]});
+            res.render('pages/dashboard');
+            console.log(req.session);
             console.log('logged in Successfully');
             return;
            }

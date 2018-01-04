@@ -1,0 +1,50 @@
+[
+ {
+  "activity": {
+   "API": "login",
+   "Timestamp": "2018-01-03 14:30:00",
+   "Browser": "UC",
+   "UserIP": "192.168.1.49",
+   "Device": "Web"
+  },
+  "steps": [
+   "step1",
+   "step2",
+   "step3",
+   "step4"
+  ],
+  "request": {
+   "first_name": "kiran",
+   "last_name": "rao   ",
+   "signature": "adadasewqeq42qeqwvfasdasd"
+  },
+  "response": {
+   "status": "200",
+   "result": ""
+  }
+ }
+,{
+ "activity": {
+  "API": "login",
+  "Timestamp": "2018-01-03 14:30:00",
+  "Browser": "UC",
+  "UserIP": "192.168.1.49",
+  "Device": "Web"
+ },
+ "steps": [
+  "step1",
+  "step2",
+  "step3",
+  "step4"
+ ],
+ "request": {
+  "first_name": "kiran",
+  "last_name": "rao   ",
+  "signature": "adadasewqeq42qeqwvfasdasd"
+ },
+ "response": {
+  "status": "200",
+  "result": ""
+ }
+}
+]

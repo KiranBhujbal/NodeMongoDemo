@@ -6,14 +6,17 @@ var router = express.Router();
 var userController = require('../Controllers/UserController');
 
  router.get('/login', function(req, res) {
+
      res.render('pages/login');
  });
 
  router.get('/register', function(req, res) {
+
      res.render('pages/register');
  });
 
  router.get('/dashboard', function(req, res) {
+
      res.render('pages/dashboard');
  });
 
